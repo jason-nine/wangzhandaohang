@@ -1,23 +1,45 @@
-baseURL               = "https://wangzhandaohang-4ll.pages.dev/"  # 先用你的 pages.dev 地址，后面绑域名再改
+baseURL               = "https://wangzhandaohang-4ll.pages.dev/"  # 先用这个，后面绑域名改成 https://zxqzz.zz.ac/
 languageCode          = "zh-CN"
-title                 = "我的导航站"  # 改成你喜欢的标题
-theme                 = ["layouts", "static"]  # 关键！因为没有 themes 文件夹，用根目录的 layouts 和 static
+title                 = "金龍导航站"  # 改成你喜欢的标题，比如复刻 nav.eooce.com 的感觉
+theme                 = "WebStack-Hugo"  # 关键！虽然没有 themes 文件夹，但 Hugo 会直接用根目录的 layouts/static 作为主题
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true
 publishDir            = "public"
 
 [params]
-    author        = "金龍導航"
-    description   = "个人网址导航"
+    author        = "金龍送財"
+    description   = "个人网址导航 | 复刻 nav.eooce.com"
+    upload        = ""  # 可留空
+    about         = ""  # 可留空
+    repository    = "https://github.com/jason-nine/wangzhandaohang"
     enablePreLoad = true
     textPreLoad   = "加载中..."
     expandSidebar = false
+    logosPath     = "assets/images/logos"
+    defaultLogo   = "assets/images/logos/default.webp"
     nightMode     = false
     yiyan         = true
     fancybox      = true
 
+[params.seo]
+    baiduhmid       = ''
+    baiduSiteVer    = ''
+
+[params.qweather]
+    key = ""
+
+[params.images]
+    favicon           = "assets/images/bi-favicon.png"
+    searchImageL      = "assets/images/bg-dna.jpg"
+    searchImageD      = "assets/images/bg-dna.jpg"
+    logoExpandLight   = "assets/images/bi-expand-dark.png"
+    logoExpandDark    = "assets/images/bi-expand-light.png"
+    logoCollapseLight = "assets/images/bi.png"
+    logoCollapseDark  = "assets/images/bi.png"
+
 [markup.goldmark.renderer]
     unsafe = true
 
-# 其他参数可以慢慢加，先用这个最小版确保成功
+[params.footer]
+    copyright = '© {year} ZXQ 导航站'
