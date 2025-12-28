@@ -8,7 +8,7 @@ hasCJKLanguage        = true
 publishDir            = "public"
 
 [params]
-    author        = "你的名字"
+    author        = "金龍導航"
     description   = "个人网址导航"
     enablePreLoad = true
     textPreLoad   = "加载中..."
