@@ -1,7 +1,7 @@
-baseURL               = "https://webstack-hugo.weiyan.cc/"
+baseURL               = "https://wangzhandaohang-4ll.pages.dev/"
 languageCode          = "zh-CN"
-title                 = "WebStack-Hugo 网址导航"
-theme                 = "WebStack-Hugo"
+title                 = "金龍导航"
+theme                 = ""
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true
